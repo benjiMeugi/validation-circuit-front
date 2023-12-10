@@ -1,0 +1,26 @@
+.breadcrum {
+    .breadcrum-item {
+        background-color: hsl(198, 100%, 32%);
+        padding: 2px;
+        border-radius: 3px;
+
+        a {
+            color: white;
+        }
+    }
+
+    .breadcrum-last-item {
+        background-color: hsl(198, 100%, 32%);
+        padding: 2px;
+        border-radius: 3px;
+
+        a {
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    .breadcrum-separator {
+        color: hsl(198, 100%, 32%);
+    }
+}

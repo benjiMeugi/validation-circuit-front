@@ -1,0 +1,3 @@
+[submodule "src/app/core/form-module"]
+	path = src/app/core/form-module
+	url = git@github.com:benjiMeugi/angular-form.git

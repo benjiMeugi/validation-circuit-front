@@ -1,0 +1,8 @@
+<div class="breadcrum">
+    <ng-container *ngFor="let item of items; last as isLast">
+        <span [ngClass]="{'breadcrum-item': !isLast, 'breadcrum-last-item': isLast}">
+            <a [routerLink]="item.route" routerLinkActive="active">{{item.label}}</a>
+        </span>
+        <span class="breadcrum-separator" *ngIf="!isLast">{{separator}}</span>
+    </ng-container>
+</div>

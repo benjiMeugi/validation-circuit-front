@@ -1,0 +1,24 @@
+<p>datagrid-date-filter works!</p>
+<form clrForm [formGroup]="formGroup">
+    <input type="date" placeholder="My input" name="input" (change)="onDateChange2($event)" />
+
+    <clr-date-container >
+        <label>DEBUT</label>
+        <input type="date" clrDate formControlName="startDate" (clrDateChange)="onDateChange($event)"  #dateInput />
+    </clr-date-container> 
+
+    <!-- <clr-date-container>
+        <label>FIN</label>
+        <input type="date" clrDate formControlName="endDate" (click)="onDateSelectClick($event)"/>
+    </clr-date-container> -->
+</form>
+
+
+<!-- <form clrForm>
+    <clr-date-container>
+        <label>From:</label>
+        <input clrDate type="date" name="startDate" [(ngModel)]="startDate" (change)="onFilterChange()">
+        <label>To:</label>
+        <input clrDate type="date"  name="endDate" [(ngModel)]="endDate" (change)="onFilterChange()">
+    </clr-date-container>
+</form> -->
