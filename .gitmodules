@@ -1,3 +1,6 @@
 [submodule "src/app/core/form-module"]
 	path = src/app/core/form-module
 	url = git@github.com:benjiMeugi/angular-form.git
+[submodule "src/app/views/auth"]
+	path = src/app/views/auth
+	url = git@github.com:benjiMeugi/angular-auth.git
